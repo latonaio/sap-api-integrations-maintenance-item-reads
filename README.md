@@ -32,6 +32,7 @@ sap-api-integrations-maintenance-item-reads において、API への値入力�
 
 ### SDC レイアウト
 
+* inoutSDC.MaintenanceItem.MaintenancePlan（保全計画）
 * inoutSDC.MaintenanceItem.MaintenanceItem（保全計画明細）
 
 ## SAP API Bussiness Hub の API の選択的コール
