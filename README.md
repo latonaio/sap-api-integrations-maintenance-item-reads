@@ -88,9 +88,9 @@ func (c *SAPAPICaller) AsyncGetMaintenanceItem(maintenanceItem string, accepter 
 }
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 保全計画　の　明細データ が取得された結果の JSON の例です。  
-以下の項目のうち、"MaintenanceItem" ～ "to_MaintPlanCallObjects" は、/SAP_API_Output_Formatter/type.go 内 の Type Item {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"MaintenanceItem" ～ "to_MaintPlanCallObjects" は、/SAP_API_Output_Formatter/type.go 内 の Type Item {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -153,12 +153,12 @@ func (c *SAPAPICaller) AsyncGetMaintenanceItem(maintenanceItem string, accepter 
 			"SettlementOrder": "",
 			"CycleSetSequence": "0",
 			"StandingOrderNumber": "",
-			"CreationDate": "/Date(1498435200000)/",
-			"LastChangeDate": "/Date(1498435200000)/",
+			"CreationDate": "2017-06-26T09:00:00+09:00",
+			"LastChangeDate": "2017-06-26T09:00:00+09:00",
 			"LastChangeDateTime": "",
 			"to_MaintPlanCallObjects": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTENANCEITEM/MaintenanceItem('1')/to_MaintPlanCallObjects"
 		}
 	],
-	"time": "2021-12-28T19:54:36.748885+09:00"
+	"time": "2022-01-28T17:14:36+09:00"
 }
 ```

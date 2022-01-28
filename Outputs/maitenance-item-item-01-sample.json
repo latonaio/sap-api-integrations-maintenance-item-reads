@@ -58,11 +58,11 @@
 			"SettlementOrder": "",
 			"CycleSetSequence": "0",
 			"StandingOrderNumber": "",
-			"CreationDate": "/Date(1498435200000)/",
-			"LastChangeDate": "/Date(1498435200000)/",
+			"CreationDate": "2017-06-26T09:00:00+09:00",
+			"LastChangeDate": "2017-06-26T09:00:00+09:00",
 			"LastChangeDateTime": "",
 			"to_MaintPlanCallObjects": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTENANCEITEM/MaintenanceItem('1')/to_MaintPlanCallObjects"
 		}
 	],
-	"time": "2021-12-28T19:54:36.748885+09:00"
+	"time": "2022-01-28T17:14:36+09:00"
 }
